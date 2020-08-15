@@ -3,15 +3,15 @@ import './component.css';
 
  
 class FormInput  extends Component
-    {
-      
+    { 
      render(){ return(
-
         <div className="form-container">
+          
           First Name <input type="text" placeholder="First name" name="first_name" required /> <br />
           Last Name <input type="text" placeholder="Last name" name="last_name" /> <br />
           City <input type="text" placeholder="city" name="city" required />  <br />
           Phone Number<input type="text" placeholder="Phone Number" name="phone_number" required /> <br />
+
           <input type="submit" className="order-button" onClick={ ()=>{ alert('User Registered');}}  defaultValue="Order Now" />
         </div>
       );

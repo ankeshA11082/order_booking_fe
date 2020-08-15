@@ -61,8 +61,17 @@
     width: 280px;
   }
 
-/* Rubish */
+  .Any-button:hover {
+    opacity: 1;
+  }
 
+  .Logo
+  {
+    
+    width: 200px;
+    height: 75px;
+    float: left;
+  }
 h1 {
   margin: 0;
   padding: 0;

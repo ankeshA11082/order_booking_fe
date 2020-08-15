@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './component.css';
 
+
 class ServicesList extends Component {
-    render(){
+    render()
+    {
     return (
         <div className="services">
           <input type="checkbox" name="services[] " />
